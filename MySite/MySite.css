@@ -1,0 +1,244 @@
+* {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  .header{
+    background-color: #61492f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   position:relative;
+  height: 100px;
+  }
+.logo{
+font-size: 32px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 50px;
+color: rgb(255, 255, 255);
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    margin-right:90px;
+}
+.menu li a{
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu li a:hover{
+background-color:rgb(223, 221, 187) ;
+color: rgb(0, 0, 0);
+}
+.menu2{
+    position:relative;
+    z-index: 2000;
+    right: -20px;
+    top: 121px;
+    background-color: rgb(236, 235, 235);
+    padding: 22px;
+    padding-right: 65px;
+    display: none;
+}
+.menu2 li{
+     margin-bottom: 25px;
+     
+    
+}
+.mnu{
+ display: none;
+   color: rgb(33, 50, 93) ;
+   font-size: 22px;
+   margin-right: 20px;
+}
+.mnu i{
+    color: white;
+}
+.menu2 li a{
+    color: #000;
+    padding: 5px;
+    border-radius: 5px;
+   font-size: small;
+  
+}
+
+@media only screen and (max-width: 1130px){
+    .menu li a{
+        margin-left: 15px;
+      
+        padding: 6px;
+      font-size: small;
+    }
+   
+        .menu ul{
+            margin-right:50px;
+        }
+}
+@media only screen and (max-width: 775px){
+    .menu li a{
+        margin-left: 7px;
+        padding: 6px;
+        font-size: 10px;
+    }
+    .logo img{
+        width: 130px;
+        margin-left: 30px;
+        }
+        .menu ul{
+            margin-right:40px;
+        }
+      
+}
+@media only screen and (max-width: 584px){
+    .menu{
+        display: none;
+    }
+.mnu{
+    display: block;
+}
+
+.header{
+    height: 70px;
+}
+
+
+}
+.mnu:hover .menu2{
+    display: block;
+}.ktkp img {
+width: 100%;
+
+filter: brightness(0.5);
+
+  }
+ 
+  .img1 img{
+    width: 100%;
+height: 621px;
+  }
+  .img1 .brinci{
+    position: absolute;
+    top: 320px;
+    font-size: 80px;
+    color: white;
+    font-style:italic;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 4%;
+    line-height: 100px;
+  }
+  .img1 .ikinci{
+    position: absolute;
+    top: 420px;
+    font-size: 80px;
+    color: white;
+    font-style:italic;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:13%;
+    line-height: 100px;
+  }
+  @media only screen and (max-width:872px){
+      .img1 .brinci{
+        position: absolute;
+        top: 320px;
+        font-size: 40px;
+        color: white;
+        font-style:italic;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left: 4%;
+        line-height: 100px;
+      }
+      .img1 .ikinci{
+        position: absolute;
+        top: 390px;
+        font-size: 40px;
+        color: white;
+        font-style:italic;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left:13%;
+        line-height: 100px;
+      }
+      .logo{
+        font-size: 22px;
+        margin-left: 20px;
+        }
+  }
+  .videos{
+    
+display: flex;
+width: 100%;
+justify-content: space-around;
+flex-wrap: wrap;
+background-color: rgb(216, 193, 163);
+  }
+  .videos video{
+    width: 49.4%;
+    margin-bottom: 8px;
+
+  }
+  .yazi{
+   
+    padding: 20px;
+    padding-top: 40px;
+   
+    background-color: rgb(216, 193, 163);
+  }
+  .yazi p{
+    font-size: 20px;
+    color: rgb(76, 76, 76);
+    line-height: 35px;
+  }
+  .yazi h2{
+margin-top: 10px;
+    color: rgb(39, 25, 8);
+  }
+  .contact{
+    display: flex;
+    width: 100%;
+    background-color: rgb(216, 193, 163);
+    height: 620px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  
+  .contact h1{
+    font-size: 90px;
+    color: white;
+    font-style: italic;
+    border-bottom: #000 2px solid;
+  }
+  .alt{
+    line-height:70px;
+  }
+  .alt h2{
+    font-size: 35px;
+  }
+  .alt h3{
+    font-size: 22px;
+  }@media only screen and (max-width:609px){
+    .contact h1{
+        font-size: 60px; 
+    }
+    .alt h2{
+        font-size: 27px;
+      }
+      .alt h3{
+        font-size: 19px;
+      
+  }
+  @media only screen and (max-width:826px){
+    .videos video{
+        width: 100%;
+        margin-bottom: 0px;
+    
+      }
+  }}
